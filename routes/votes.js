@@ -1,6 +1,6 @@
 const express = require('express')
 const router = express.Router()
-const votesController = require('../controllers/votes')
+const votesController = require('../controllers/voteControllers')
 
 router.post('/', votesController.create)
 
